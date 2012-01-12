@@ -1,0 +1,31 @@
+#include <iostream>
+
+class base{
+
+	
+};
+
+class base1{
+	
+	virtual b()
+	{
+		printf("base1::b()");
+	}
+
+
+};
+class base2{
+
+	virtual c()
+	{
+		printf("base2::c()");
+	}
+};
+
+int main()
+{
+  std::cout<<"sizeof(base)="<<sizeof(base)<<std::endl;	
+  std::cout<<"sizeof(base1)="<<sizeof(base1)<<std::endl;	
+  std::cout<<"sizeof(base2)="<<sizeof(base2)<<std::endl;	
+  return 0;
+}

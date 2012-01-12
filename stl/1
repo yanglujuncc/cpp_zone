@@ -1,0 +1,34 @@
+/*
+ * =====================================================================================
+ *
+ *       Filename:  test_hash_map.cpp
+ *
+ *    Description:  ylj
+ *
+ *        Version:  1.0
+ *        Created:  08/26/2011 11:13:48 AM
+ *       Revision:  none
+ *       Compiler:  gcc
+ *
+ *         Author:  YOUR NAME (), 
+ *        Company:  
+ *
+ * =====================================================================================
+ */
+#include <iostream>
+#include <string>
+#include <hash_map>
+
+int main()
+{
+  std::hash_map<int ,std::string> ismap;
+  ismap[1]="11111";
+  ismap[2]="22222";
+  ismap[3]="33333";
+	
+  std::cout<<ismap[3]<<std:endl;
+  std::cout<<ismap[2]<<std:endl;
+  std::cout<<ismap[1]<<std:endl;
+  
+  return 0;
+}
